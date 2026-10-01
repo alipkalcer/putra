@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('img/begron.jpg');
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #007bff;
+    color: white;
+    width: 20%;
+}
+
+h1 {
+
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #007bff;
+    color: white;
+    background: size 1ex 1px;
+}
+
+#product-list {
+    margin-bottom: 30px;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    width: 200px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.product-list {
+    background-color: #007bff;
+}
+
+.product button:hover {
+    background-color: #0056b3;
+}
+
+#cart {
+    margin-top: 30px;
+}
+
+#cart-items {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#cart-items li {
+    padding: 5px 0;
+}
+
+body {
+    background-image: url('img/begron.jpg');
+}
